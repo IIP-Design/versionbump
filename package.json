@@ -1,0 +1,17 @@
+{
+  "name": "versionbump",
+  "version": "1.0.0",
+  "description": "A small script to read the version of an npm package.json fle and write it to a version.json file",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "bin": {
+    "versionbump": "./index.js"
+  },
+  "author": "Office of Design, U.S. Department of State",
+  "license": "MIT",
+  "dependencies": {
+    "jsonfile": "^2.3.1"
+  }
+}
